@@ -1,0 +1,15 @@
+body
+h2{
+    text-align: center
+}
+div
+{  
+    height: 500px;
+    width: 50%;
+    border: 3px solid black;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: blueviolet;
+    padding-left :1.2cm
+    
+}
