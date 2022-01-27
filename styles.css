@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+.frame{
+    margin-top: 10px;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(media/images/image1111.png);
+    background-position:center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:transparent;
+
+
+}
+.logo{
+    width:100px;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    color: orange;
+    margin:20px;
+    position: relative;
+    }  
+    .navbar ul li a {
+        text-decoration:none;
+        color:rgb(202, 78, 78);
+        text-transform: uppercase;
+        padding: 2px;
+
+    }
+    .navbar ul li::after{
+        content:'';
+        width: 0;
+        height:3px;
+        background:rgb(196, 199, 8);
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+    .navbar ul li:hover::after{
+        width: 100%;
+    }
+    .active,.navbar ul li:hover{
+        background: #fdfdfb;
+        border-radius: 1px;
+        padding: 5px;
+
+    }  
+    /* about*/   
+    .sub-header{
+        width: 100%;
+        height: 50vh;
+        background-image: url(media/images/apple_logo.jpg);
+        background-position:center;
+        background-size: cover;
+        text-align: center;
+        color: orange;
+    }
+    .sub-header h1{
+        margin-top: 50px;
+    }
+    .about-us{
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .about-col{
+        flex-basis:48%;
+        padding:30px 2px ;
+    }
+    .img{
+        width: 100%;
+        height:50vh;
+    }
+    .about-col h1{
+        color:orange;
+    }
+    .row{
+        display: flex;
+        height: 60vh;
+        align-items: center;
+    }
+    .col{
+        flex-basis:50%;
+    }
+    .third-header{
+        width: 100%;
+        height: 50vh;
+        background-image: url(media/images/New-Apple.jpg);
+        background-position:center;
+        background-size: cover;
+        text-align: center;
+        color: rgb(247, 152, 11);
+    }
+    .third-header h1{
+        margin-top: 90px;
+    }
+    .col{
+        align-items: center;
+        padding-top:15px;
+    }
+    .card{
+        width:200px;  
+        height:230px;
+        display:inline-block;
+        border-radius:10px;
+        padding:15px 35px;
+        color:rgb(243, 168, 6);
+        box-sizing: border-box;
+        cursor: pointer;
+        background-position: center;
+        background-size: cover;
+        transition:transform 0.5s;
+    }
+    .card1{
+        background-image:url(media/images/pic1.jpg);
+    }
+    
+    .card2{
+        background-image:url(media/images/pic2.jpg);
+    }
+    
+    .card3{
+        background-image:url(media/images/pic3.jpg);
+    }
+    
+    .card4{
+        background-image:url(media/images/pic4.jpg);
+    }
+    
+    .card5{
+        background-image:url(media/images/pic5.jpg);
+    }
+    
+    .card:hover{
+    transform: translateY(-10px);
+    }
+    .forth-header{
+        width: 100%;
+        height: 40vh;
+        background-image: url(media/images/apple.webp);
+        background-position: center;
+        background-size: cover;
+        color: orange;
+        text-align: center;
+    }
+    .location{
+        width:80%;
+        margin:auto;
+        padding:80px 0;
+    }
+    .location iframe{
+        width: 50%;
+    }
+    .col{
+    width:100%;
+    padding:15px;
+    margin-bottom:17px;
+    outline:none;
+    background-color:sienna;
+    color:orange;
+    }
+
+    
+    
+
+    
+
+
+ 
+    
+    
+    
+    
